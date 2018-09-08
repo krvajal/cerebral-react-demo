@@ -6,5 +6,6 @@ it("calls the setName signal", () =>{
         name: "John"
     })
     expect(controller.getState('name')).toBe("John")
+    expect(controller.getState('hasName')).toBe(true)
 
 })

@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@cerebral/react@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@cerebral/react/-/react-3.2.2.tgz#9fdd5de8c66cc34cf1b1a8103ec1ec9e9c022a13"
+  dependencies:
+    cerebral "^4.2.2"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"

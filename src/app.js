@@ -7,7 +7,7 @@ import * as sequences from './sequences';
 // we can also add signals
 const appModule = Module({
     state: {
-        name: "Miguel"
+        hasName: false,
     },
     signals: {
         setName: sequences.setName

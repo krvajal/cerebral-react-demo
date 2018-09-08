@@ -1,4 +1,3 @@
-
 //An action is just a function.
 // What makes an action different from a normal function though
 // is that it receives only one argument, created by Cerebral.
@@ -6,27 +5,21 @@
 // Actions are “low level” and imperative.
 // There is no declarative code without some imperative code behind it.
 
-export function getUser({state}) {
-
-}
-
-export function setUser(){
-
-}
-
-export function setError() {
-
-}
-
-export function setName({state, props}){
-    state.set("name", props.name)
-}
-
+//  example function getting the state
+export function getUser({ state }) {}
+export function setUser({}) {}
 
 // props
 // When a signal is executed a payload can be passed into it,
 // called props. That means every action in the defined signal has access to these props.
 // the props are common to all signals
 export function updateFoo({ state, props }) {
-    state.set('foo', props.foo)
+  state.set("foo", props.foo);
+}
+
+// current demo code
+
+export function setName({ state, props }) {
+  state.set("name", props.name);
+  state.set("hasName", true);
 }
